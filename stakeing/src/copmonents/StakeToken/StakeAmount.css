@@ -1,0 +1,38 @@
+/* StakeAmount.css */
+.stake-container {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding: 20px;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              background-color: #fff;
+              max-width: 400px;
+              margin: 0 auto;
+            }
+            
+            .stake-form {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+            }
+            
+            .stake-input {
+              margin-bottom: 10px;
+              padding: 10px;
+              font-size: 16px;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+            }
+            
+            .stake-button {
+              margin-top: 10px;
+            }
+            
+            .stake-status {
+              margin-top: 10px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #333;
+            }
+            

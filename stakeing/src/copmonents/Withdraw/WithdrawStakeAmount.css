@@ -1,0 +1,47 @@
+/* WithdrawStakeAmount.css */
+.withdraw-container {
+              max-width: 400px;
+              margin: 20px auto;
+              padding: 20px;
+              border-radius: 8px;
+              background-color: #f9f9f9;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            
+            .withdraw-container form {
+              display: flex;
+              flex-direction: column;
+              gap: 15px;
+            }
+            
+            .withdraw-container label {
+              font-size: 16px;
+              font-weight: bold;
+              color: #333;
+            }
+            
+            .withdraw-container input {
+              padding: 10px;
+              font-size: 16px;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+            }
+            
+            .transaction-status {
+              margin-top: 15px;
+              font-size: 16px;
+              font-weight: bold;
+            }
+            
+            .transaction-status.pending {
+              color: #ffa500; /* Orange for pending */
+            }
+            
+            .transaction-status.success {
+              color: #28a745; /* Green for success */
+            }
+            
+            .transaction-status.failed {
+              color: #dc3545; /* Red for failed */
+            }
+            

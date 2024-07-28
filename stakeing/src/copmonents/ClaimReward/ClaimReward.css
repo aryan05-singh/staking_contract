@@ -1,0 +1,24 @@
+/* ClaimReward.css */
+.claim-reward-container {
+              text-align: center;
+              margin-top: 20px;
+            }
+            
+            .claim-reward-status {
+              margin-top: 10px;
+              font-size: 16px;
+              font-weight: bold;
+            }
+            
+            .transaction-status.pending {
+              color: #ffa500; /* Orange for pending */
+            }
+            
+            .transaction-status.success {
+              color: #28a745; /* Green for success */
+            }
+            
+            .transaction-status.failed {
+              color: #dc3545; /* Red for failed */
+            }
+            

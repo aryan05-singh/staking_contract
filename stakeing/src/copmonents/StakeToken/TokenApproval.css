@@ -1,0 +1,38 @@
+/* TokenApproval.css */
+.token-approval-container {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding: 20px;
+              border: 1px solid #ddd;
+              border-radius: 8px;
+              background-color: #fff;
+              max-width: 400px;
+              margin: 0 auto;
+            }
+            
+            .token-approval-form {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+            }
+            
+            .token-approval-input {
+              margin-bottom: 10px;
+              padding: 10px;
+              font-size: 16px;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+            }
+            
+            .token-approval-button {
+              margin-top: 10px;
+            }
+            
+            .token-approval-status {
+              margin-top: 10px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #333;
+            }
+            

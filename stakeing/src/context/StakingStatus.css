@@ -1,0 +1,22 @@
+/* StakingStatus.css */
+.staking-status {
+              padding: 20px;
+              border-radius: 8px;
+              background-color: #f4f4f4;
+              border: 1px solid #ddd;
+              text-align: center;
+              max-width: 300px;
+              margin: 20px auto;
+              font-size: 18px;
+              color: #333;
+            }
+            
+            .staking-status p {
+              margin: 0;
+            }
+            
+            .staking-status .reload {
+              font-weight: bold;
+              color: #ff5722; /* A color for reloading status */
+            }
+            

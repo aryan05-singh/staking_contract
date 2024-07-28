@@ -1,0 +1,28 @@
+/* Button.css */
+.button {
+              padding: 12px 24px;
+              font-size: 16px;
+              color: #fff;
+              background: linear-gradient(90deg, #ffe100, #b39e00);
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background 0.3s ease, box-shadow 0.3s ease;
+              margin: 10px;
+            }
+            
+            .button:hover {
+              background: linear-gradient(90deg, #b34b00, #003d7a);
+              box-shadow: 0 4px 8px rgba(176, 29, 29, 0.2);
+            }
+            
+            .button:active {
+              background: linear-gradient(90deg, #546679, #0056b3);
+              box-shadow: 0 2px 4px rgba(215, 112, 112, 0.3);
+            }
+            
+            .button:disabled {
+              background: #b0b0b0;
+              cursor: not-allowed;
+            }
+            
